@@ -8,7 +8,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langgraph.graph import StateGraph, START, END
 
 from common import embeddings, llm, collection,qdrant_url,threshold
-from db import save_chat
+from graphcheckpoint_db import save_chat
 # tools
 client=QdrantClient(url=qdrant_url)
 vectorstore=QdrantVectorStore(client=client,collection_name=collection,embedding=embeddings)
