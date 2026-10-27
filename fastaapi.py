@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastaapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from graphcheckpoint_db import init_db, get_history
