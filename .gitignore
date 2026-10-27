@@ -1,0 +1,10 @@
+# Environment & API Keys
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+
+# Qdrant local storage (if testing locally)
+qdrant_storage/

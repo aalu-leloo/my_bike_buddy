@@ -1,0 +1,77 @@
+[
+  {
+    "problem": "Front brake shakes when stopping",
+    "symptoms": "lever vibrates in your hand, bike feels jerky when slowing down",
+    "solution": "Check if the brake disc is bent, make sure brake bolts are tight, and check for worn pads."
+  },
+  {
+    "problem": "Gas smell or leak under the bike",
+    "symptoms": "strong fuel smell, wet spots under the engine or gas tank",
+    "solution": "Check gas hoses for cracks or leaks, tighten hose clamps, and check rubber seals."
+  },
+  {
+    "problem": "Bike pulls to one side while riding",
+    "symptoms": "you have to push constantly on the handlebars to keep going straight",
+    "solution": "Check tire pressure on both wheels, make sure the rear wheel is aligned, and check front fork height."
+  },
+  {
+    "problem": "Horn is quiet or doesn't work",
+    "symptoms": "makes a faint click or no sound at all when you press the button",
+    "solution": "Check the horn fuse, look for rusty or loose wires, and turn the small tuning screw on the horn."
+  },
+  {
+    "problem": "Bike hits hard over bumps",
+    "symptoms": "loud clunking noise over potholes, rear end feels bouncy or scrapes",
+    "solution": "Stiffen the rear spring setting, add fork oil, or replace old shock absorbers."
+  },
+  {
+    "problem": "Turn signal flashes too fast or stays on",
+    "symptoms": "blinker lights up without blinking or flashes super fast",
+    "solution": "Replace any burnt-out bulb, check for correct bulb type, or change the blinker relay."
+  },
+  {
+    "problem": "Exhaust pops when slowing down",
+    "symptoms": "popping or cracking noises coming from the pipe when you let go of the gas",
+    "solution": "Check exhaust pipe joint gaskets for air leaks, and make sure air intake rubber boots are tight."
+  },
+  {
+    "problem": "Speedometer stopped working",
+    "symptoms": "speed needle stays at zero while moving, odometer stops counting distance",
+    "solution": "Check the speedometer cable for breaks, check the wheel sensor wire, or replace the wheel gear."
+  },
+  {
+    "problem": "Rear wheel feels wobbly in turns",
+    "symptoms": "back end feels loose or sways side to side in corners",
+    "solution": "Tighten the main axle bolt, check for loose swingarm bolts, and inspect wheel bearings for play."
+  },
+  {
+    "problem": "Engine sputters at high speeds",
+    "symptoms": "jerking, loss of power, or choking feeling when you twist the throttle all the way",
+    "solution": "Clean dirty fuel injectors or carburetor jets, check spark plug caps, and replace old fuel."
+  },
+  {
+    "problem": "Throttle grip gets stuck",
+    "symptoms": "gas handle doesn't spring back automatically when released, stays revved up",
+    "solution": "Oil the throttle cables, clean dirt inside the handle housing, and check for rubbing grip rubber."
+  },
+  {
+    "problem": "Starter makes whirring noise but engine won't turn over",
+    "symptoms": "high spinning sound when pressing start button, but engine does not crank",
+    "solution": "Inspect or replace the starter clutch gear that hooks up to the engine."
+  },
+  {
+    "problem": "Oil dripping on the floor",
+    "symptoms": "dark oil spots under the engine, low oil line on sight glass or dipstick",
+    "solution": "Replace the drain plug washer, tighten loose engine cover bolts, and check rubber gaskets."
+  },
+  {
+    "problem": "Oil leaking down the front forks",
+    "symptoms": "shiny oil rings on front fork tubes, oil getting onto front brakes",
+    "solution": "Wipe dirt off the fork tubes, use a seal cleaner tool, or replace leaking fork rubber seals."
+  },
+  {
+    "problem": "Scooter revs high but accelerates slowly",
+    "symptoms": "engine roars loudly, high-pitched belt squeal, slow speed pickup",
+    "solution": "Check the rubber belt inside the belt box for wear, clean dust out of the clutch, and check roller weights."
+  }
+]

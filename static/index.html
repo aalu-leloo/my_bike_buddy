@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyBikeBuddy 🏍️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="topbar-brand">🏍️ MYBIKEBUDDY</div>
+    <div class="status-pill" id="statusPill">
+      <span class="status-dot" id="statusDot"></span>
+      <span id="statusText">Checking…</span>
+    </div>
+  </header>
+
+  <!-- Animated road lines background -->
+  <div class="road-bg" aria-hidden="true">
+    <div class="lane-line"></div>
+    <div class="lane-line"></div>
+    <div class="lane-line"></div>
+    <div class="lane-line"></div>
+    <div class="lane-line"></div>
+  </div>
+
+  <main>
+    <div class="hero">
+      <h1>MYBIKEBUDDY</h1>
+      <p class="subtitle">Describe your motorcycle issue and get instant AI-powered diagnosis</p>
+    </div>
+
+    <!-- Query card -->
+    <div class="card query-card">
+      <form id="form">
+        <label class="field-label" for="query">⚙️ What's wrong with your bike?</label>
+        <textarea id="query" rows="4" placeholder="e.g. Engine hesitates at low RPM, strange knocking sound from engine…" required></textarea>
+        <div class="form-footer">
+          <span class="hint">Press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to submit</span>
+          <button type="submit" id="btn">
+            <span id="btnIcon">🔍</span>
+            <span id="btnText">Diagnose</span>
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Loading bar -->
+    <div class="loading-bar" id="loadingBar"></div>
+
+    <!-- Result card -->
+    <div class="card result-card" id="result" hidden>
+      <div class="result-header">
+        <span id="source" class="source-badge"></span>
+        <button class="copy-btn" id="copyBtn" title="Copy answer">📋 Copy</button>
+      </div>
+      <div id="answer" class="answer-body"></div>
+    </div>
+
+    <!-- History -->
+    <div class="card history-card">
+      <h2>🕒 MOSTLY OCCURING PROBLEMS :)</h2>
+      <ul id="history"><li class="empty-state">No history yet</li></ul>
+    </div>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
+
+</html>
