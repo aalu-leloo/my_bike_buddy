@@ -7,10 +7,10 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langgraph.graph import StateGraph, START, END
 
-from common import embeddings, llm, collection,qdrant_url,threshold
+from common import embeddings, llm, collection,qdrant_url,threshold,qdrant_api_key
 from graphcheckpoint_db import save_chat
 # tools
-client=QdrantClient(url=qdrant_url)
+client=QdrantClient(url=qdrant_url,api_key=qdrant_api_key)
 vectorstore=QdrantVectorStore(client=client,collection_name=collection,embedding=embeddings)
 web_tool=TavilySearch(max_result=4)
 prompt=ChatPromptTemplate.from_template(

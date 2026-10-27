@@ -4,6 +4,7 @@ from langchain_google_genai import GoogleGenerativeAI, ChatGoogleGenerativeAI, G
 load_dotenv()
 key=os.getenv("GEMINI_API_KEY")
 qdrant_url=os.getenv("QDRANT_URL")
+qdrant_api_key=os.getenv("QDRANT_API_KEY")
 collection=os.getenv("COLLECTION")
 threshold=float(os.getenv("THRESHOLD", "0.6"))
 model1=os.getenv("GEMINI_CHAT_MODEL")

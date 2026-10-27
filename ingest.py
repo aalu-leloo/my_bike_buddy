@@ -2,7 +2,7 @@ import json
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_qdrant import QdrantVectorStore
-from common import embeddings,collection,qdrant_url
+from common import embeddings,collection,qdrant_url,qdrant_api_key
 def main():
     data=json.load(open("data/solution.json", encoding="utf_8"))
     docs=[
@@ -18,6 +18,7 @@ def main():
         chunk,
         embeddings,
         url=qdrant_url,
+        api_key=qdrant_api_key,
         collection_name=collection,
         force_recreate=True,
     )
@@ -25,3 +26,4 @@ def main():
 
 if __name__=="__main__":
      main()
+     
