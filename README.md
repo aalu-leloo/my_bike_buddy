@@ -9,7 +9,7 @@ Built with FastAPI, LangChain/LangGraph, Google Gemini, Tavily web search, and Q
 🔗 Live Demo: 
              my-bike-buddy-1.onrender.com
 
----
+----
 
 ✨ Features
 
