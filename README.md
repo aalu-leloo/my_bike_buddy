@@ -177,8 +177,6 @@ Cloud Hosting Render
 
 🔌 API Endpoints
 
-Update these to match your actual routes in main.py.
-
 Method Endpoint Description
 GET / Serves the web UI
 POST /chat Send a message, receive agent response
